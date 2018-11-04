@@ -1,5 +1,6 @@
-body{overflow: hidden;
+body{overflow-x: hidden;
     width: 1000px;
+    height: 900px;
     margin: auto;
     padding: 10px;
 /* background: url("../images/slide3.jpg")no-repeat; */
@@ -31,9 +32,9 @@ form .input input[type=submit]{margin-left: 130px;width: 200px;height: 35px;back
 form .input span{color: maroon;font-size: 12px;}
 
 /* dashboard -css */
-.wrapper{display: flex;flex-direction: column;}
-.header{background:rgba(2, 116, 26, 0.9);color: white; }
-.content{display: flex;flex-wrap: wrap;}
+.wrapper{display: grid;grid-template-rows: 100px auto 100px;padding: 5px;}
+.header,.footer{background:rgba(2, 116, 26, 0.9);color: white; }
+.content{padding: 5px; display:grid;grid-template:repeat(2,1fr)/repeat(3,1fr);grid-gap: 5px; background: whitesmoke;}
 .content .users,.content .orders,.content .pickups,.content .deliveries,.content .parcel,.content .payment{
-    background: rgba(2, 26, 116, 0.9);width: 200px;height: 150px;
+    background: rgba(2, 26, 116, 0.9);width: 200px;height: 150px;color: white;text-align: center;
 }
