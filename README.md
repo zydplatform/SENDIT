@@ -1,2 +1,0 @@
-# SENDIT
-Courier services
