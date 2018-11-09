@@ -59,8 +59,8 @@ form .input span{color: maroon;font-size: 12px;}
 /* dashboard -css */
 .wrapper{display: grid;grid-template-rows: 100px auto 100px;padding: 5px;}
 .header, .footer{background:rgba(26, 1, 54, 0.9);color: white;width: 100%;padding: 10px 10px; }
-.links a{float: right; color: white;}
-.links a:hover{float: right; color: rgba(26, 1, 54, 0.9);background: white;}
+.links a{float: right; color: white; padding: 0px 10px;}
+.links a:hover{color: rgba(26, 1, 54, 0.9);background: white;}
 
 .header button{float: right;padding: 10px 10px;margin-top: 20px;background: white;border: none;}
 .content{padding: 5px; display:grid;grid-template:repeat(2,1fr)/repeat(3,1fr);grid-gap: 5px;}
