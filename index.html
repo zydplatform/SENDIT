@@ -13,19 +13,25 @@
     <div class="header"><i class="fa fa-paper-plane"></i>SENDIT Courier Services <button><a href="../SENDIT/UI/templates/signup.html">Create An Account</button></a> </div>
     <div class="container">
         <div class="content">
-            <form>
+            <form id="login">
                 <div class="form-head">
                     SENDIT-Login 
                 </div>
                 <div class="logo"></div>
-                <div class="input">
-                    <label for="email">Email<span>*required</span></label><input type="text" id="email" required><br>
-                    <label for="password">Password<span>*required</span></label><input type="text" id="password" required><br>
-                    <br> <input type="submit" value="Sign in" id="login">
+                <div class="input"><span id="wrong-name"></span>
+                    <div class="row">
+                        <div class="col-25"><label for="name">Username <span>required*</span></label></div>
+                        <div class="col-75"><input type="text"  id="name" name="name" onfocus="this.value=''" placeholder="please enter your name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25"><label for="password">Password <span>required*</span></label></div>
+                        <div class="col-75"><input type="text"  id="password" name="password" onfocus="this.value=''" placeholder="please enter password"></div>
+                    </div>
+                    <input type="submit" value="Submit">
                 </div>
             </form>
         </div>
-        <div class="footer">@kigandaivan-sendit-courier services version 1.0 &copy;copyright 2018</div>
+        <div class="footer"><i class="fa fa-paper-plane"></i>@kigandaivan-sendit-courier services version 1.0 &copy;copyright 2018</div>
     </div>
 
     <script src="../SENDIT/UI/static/main.js"></script>
