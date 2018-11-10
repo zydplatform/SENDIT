@@ -6,7 +6,7 @@ Getting Started:
 
 Get a browser of your choice installed on your local machine .
 
-Here you can use Google chrome , Safari and Mozilla Firefox.
+Here you can use Google chrome ,Safari and Mozilla Firefox.
 
 Have internet to access the web page.
 
